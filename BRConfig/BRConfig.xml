@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration name="BRConfig">
+<!-- BugReminder Configration List -->
+
+<!-- Reporters: FO or Tester name -->
+	<param name="Reporters"  value="alexpeng.wang,chaoxu.xu,chen.yu,crytal.wang,cy.wang,elaine.zhang,guanhua.liu,haijie.lin,hangyu.jiang,honghui.xiong,jiajia.li,jianying.shi,jiaqi.chen,jieying.li,jingping.liu,jingwen.chen,jinliang.wang,lin.niu,linlin.li,lisa.zhang,luna.li,mengchen.hu,min.guo,pengfei.sun,qi.hao,qian.sun,qiuyu.jia,robert.xu,suya.shang,tingting.su,tong.li,tongfeng.liu,vera.qi,xin.ma,xinhong.zhang,xiuguang.ma,xuedong.wu,xuefei.yang,ya.wang,yanli.zhang,yedda.zhang,yuanzhi.huang,zhoudan.zhao,zhengxiao.su" />
+	
+	<!-- Bugzilla免登录权限
+	You can get API token message from Bugzilla "http://bugzilla.spreadtrum.com/bugzilla/userprefs.cgi?tab=apikey".
+	-->
+	<param name="UserToken"  value="token=9779-xnQpkEnxva"/>
+	
+	<!-- ****** 发件人账号和密码 ****** -->	
+	<!-- 邮箱登录账号 -->
+	<param name="EmailAccoutName"  value="zhengxiao.su@spreadtrum.com"/>	
+	<!-- 邮箱登录密码 -->
+	<param name="EmailPassword"  value="szx@123456"/>	
+	<!-- 邮件发件人 -->
+	<param name="SendAddress"  value="zhengxiao.su@spreadtrum.com"/>
+	
+	<!-- ****** 超时待处理Bug邮件,主题、收件和抄送地址 ****** -->	
+	<!-- 邮件主题 -->
+    <param name="EmailSubject_Delay"  value="超期待处理CR状态_Test_TJ_"/>
+	<!-- 邮件收件人,多个收件人间分号隔开
+	Yedda.Zhang;Linlin.Li;Luna.Li;Jiaqi.Chen;Lin.Niu;Andy.Wang;Qian.Sun;Xuedong.Wu;Suya.Shang;Ying.Meng;Lisa.Zhang;Xiuguang.Ma;Qiuyu.Jia;Tingting.Su;Zhoudan.Zhao;Yanli.Zhang;Jinliang.Wang;Tong.Li; -->	
+	<param name="destAddress_Delay"  value="zhengxiao.su"/>
+	<!-- 邮件抄送人,多个收件人间分号隔开
+	min.xu;moon.li;jia.tian;melo.yang;yue.chen;lianjie.sun;ying.meng;andy.wang;xiangbo.song -->
+	<param name="CC_Address_Delay"  value="wenchao.li;zihui.yuan"/>
+	
+	<!-- ****** 每日新提1、2级Bug提醒邮件,主题、收件和抄送地址 ****** 
+	Yedda.Zhang;Linlin.Li;Luna.Li;Jiaqi.Chen;Lin.Niu;Andy.Wang;Qian.Sun;Xuedong.Wu;Suya.Shang;Ying.Meng;Lisa.Zhang;Xiuguang.Ma;Qiuyu.Jia;Tingting.Su;Zhoudan.Zhao;Yanli.Zhang;Jinliang.Wang;Tong.Li;
+	
+	min.xu;moon.li;jia.tian;melo.yang;yue.chen;lianjie.sun;ying.meng;andy.wang;xiangbo.song-->	
+	<param name="EmailSubject_New"  value="每日新提交1、2级必现CR状态_Test_TJ_"/>
+	<param name="destAddress_New"  value="zhengxiao.su"/>
+	<param name="CC_Address_New"  value="wenchao.li;zihui.yuan"/>
+	
+	<!-- ****** Bug提醒工具启动方式 ****** -->
+    <!-- BugReminder定时启动，设定后每间隔24小时执行一次，设定时间若早于当前时间，则自动增加时间间隔24小时 -->
+    <param name="StartByTimer"  value="false"/>
+    <param name="StartExecuteTime"  value="2015-10-27 07:20:00"/>
+    
+</configuration>

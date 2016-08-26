@@ -1,0 +1,148 @@
+{
+   "bugs" : [
+      {
+         "actual_time" : 0,
+         "alias" : [],
+         "assigned_to" : "kang.li@spreadtrum.com",
+         "assigned_to_detail" : {
+            "email" : "kang.li@spreadtrum.com",
+            "id" : 3931,
+            "name" : "kang.li@spreadtrum.com",
+            "real_name" : "Kang Li (李康)"
+         },
+         "blocks" : [
+            463649
+         ],
+         "cc" : [
+            "henry.fu@spreadtrum.com",
+            "jun.li@spreadtrum.com",
+            "lianjie.sun@spreadtrum.com",
+            "peter.zhang@spreadtrum.com",
+            "Shibing.Zhu@spreadtrum.com",
+            "yanxian.zhou@spreadtrum.com",
+            "yaoguang.chen@spreadtrum.com",
+            "Zhongqiang.Xiao@spreadtrum.com"
+         ],
+         "cc_detail" : [
+            {
+               "email" : "henry.fu@spreadtrum.com",
+               "id" : 698,
+               "name" : "henry.fu@spreadtrum.com",
+               "real_name" : "Henry Fu (傅航宇)"
+            },
+            {
+               "email" : "jun.li@spreadtrum.com",
+               "id" : 909,
+               "name" : "jun.li@spreadtrum.com",
+               "real_name" : "Jun Li (李军 589-1652)"
+            },
+            {
+               "email" : "lianjie.sun@spreadtrum.com",
+               "id" : 1009,
+               "name" : "lianjie.sun@spreadtrum.com",
+               "real_name" : "Lianjie Sun (孙连婕)"
+            },
+            {
+               "email" : "peter.zhang@spreadtrum.com",
+               "id" : 7000,
+               "name" : "peter.zhang@spreadtrum.com",
+               "real_name" : "Peter Zhang (张洋)"
+            },
+            {
+               "email" : "Shibing.Zhu@spreadtrum.com",
+               "id" : 5218,
+               "name" : "Shibing.Zhu@spreadtrum.com",
+               "real_name" : "Shibing Zhu (朱世兵)"
+            },
+            {
+               "email" : "yanxian.zhou@spreadtrum.com",
+               "id" : 1683,
+               "name" : "yanxian.zhou@spreadtrum.com",
+               "real_name" : "Yanxian Zhou (周延献)"
+            },
+            {
+               "email" : "yaoguang.chen@spreadtrum.com",
+               "id" : 16,
+               "name" : "yaoguang.chen@spreadtrum.com",
+               "real_name" : "Yaoguang Chen (陈耀光)"
+            },
+            {
+               "email" : "Zhongqiang.Xiao@spreadtrum.com",
+               "id" : 5749,
+               "name" : "Zhongqiang.Xiao@spreadtrum.com",
+               "real_name" : "Zhongqiang Xiao"
+            }
+         ],
+         "cf_analysis_solution" : "[1.Root Cause        ]:\r\n\r\n[2.Resolution        ]:\r\n\r\n[3.Testing Suggestion]:\r\n\r\n[4.Probability from RD]:\r\n\r\n[5.Impact for customer]: \r\n\r\n[6.Modification scope]:\r\n\r\n[7.Regression Failed Reason](Optional):\r\n\r\n[8.Process Analysis Review](Optional):\r\n\r\n[9.SideEffect](Optional):\r\n\r\n[10.Self Test Items]:\r\n\r\n",
+         "cf_assigneddate" : "2015-08-28T06:53:00Z",
+         "cf_base_on_ver" : "FM_BASE_HUAWEI_Pretest_15.32",
+         "cf_blocker" : "---",
+         "cf_branchtobemerged" : "",
+         "cf_change_type" : "EnhancementRequest",
+         "cf_closeddate" : null,
+         "cf_come_from" : "Test_Area",
+         "cf_comprefphone" : "---",
+         "cf_duplicatedate" : null,
+         "cf_fix_on_ver" : "",
+         "cf_fixeddate" : null,
+         "cf_invaliddate" : null,
+         "cf_needinfodate" : "2015-09-25T06:02:00Z",
+         "cf_occurence_count" : "8/10",
+         "cf_pabyassignee" : "---",
+         "cf_postponedate" : null,
+         "cf_postponedeadline" : null,
+         "cf_probability" : "1-Always Recurrence",
+         "cf_processanalysis" : "---",
+         "cf_reopendate" : null,
+         "cf_reviewer" : "",
+         "cf_rootcauseddate" : null,
+         "cf_testcaseid" : "Local_Storage",
+         "cf_tgmk" : "---",
+         "cf_wontfixdate" : null,
+         "classification" : "SPRDROID",
+         "component" : "BSP-FS-FAT",
+         "creation_time" : "2015-08-13T13:09:23Z",
+         "creator" : "Luna.Li@spreadtrum.com",
+         "creator_detail" : {
+            "email" : "Luna.Li@spreadtrum.com",
+            "id" : 5408,
+            "name" : "Luna.Li@spreadtrum.com",
+            "real_name" : "Luna Li (李琳)"
+         },
+         "deadline" : "2015-08-24",
+         "depends_on" : [
+            464117
+         ],
+         "dupe_of" : null,
+         "estimated_time" : 0,
+         "flags" : [],
+         "groups" : [
+            "PRD_44310_SHARK",
+            "SPREADAOB"
+         ],
+         "id" : 464561,
+         "is_cc_accessible" : true,
+         "is_confirmed" : true,
+         "is_creator_accessible" : true,
+         "is_open" : true,
+         "keywords" : [],
+         "last_change_time" : "2015-10-14T01:46:00Z",
+         "op_sys" : "Windows",
+         "platform" : "PC",
+         "priority" : "3-Normal Queue",
+         "product" : "Sprdroid_5.1_Trunk_SharkL",
+         "qa_contact" : "",
+         "remaining_time" : 0,
+         "resolution" : "",
+         "see_also" : [],
+         "severity" : "3-Average",
+         "status" : "Need_Info",
+         "summary" : "[HUAWEI][TJ][Local][SC9830A][SD]][5MOD][5.1]插入kingston 32G 满载T卡 ，照相机显示“使用相机前请插入T卡”提示错误",
+         "target_milestone" : "---",
+         "url" : "",
+         "version" : "unspecified",
+         "whiteboard" : ""
+      }
+   ]
+}
+
